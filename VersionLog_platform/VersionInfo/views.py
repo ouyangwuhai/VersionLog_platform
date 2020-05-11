@@ -41,9 +41,6 @@ def ceshibbb(request):
     pass
 
 
-def ceshiccc(request):
-    pass
-
 def cesthi2(request):
     print("hello world!")
 
