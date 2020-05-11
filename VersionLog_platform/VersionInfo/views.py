@@ -34,6 +34,11 @@ def manage(request):
 def ceshit(request):
     pass
 
+def ceshiaaa(request):
+    pass
+
+
+
 
 def cesthi2(request):
     print("hello world!")
