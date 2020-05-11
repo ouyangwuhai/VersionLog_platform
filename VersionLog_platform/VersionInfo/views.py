@@ -35,3 +35,7 @@ def ceshit(request):
     pass
 
 
+def cesthi2(request):
+    print("hello world!")
+
+
