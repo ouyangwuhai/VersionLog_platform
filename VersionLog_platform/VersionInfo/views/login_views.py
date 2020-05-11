@@ -25,13 +25,8 @@ def index(request):
             if user == None:
                 return render(request, "index.html", {"errmsg": "用户名或密码错误"})
             else:
-                # auth.login(request,user) #记录用户登入状态
-                # return HttpResponse("恭喜你，登入成功")
-                return HttpResponseRedirect("/manage/")
-def manage(request):
-    return render(request,"manage.html")
+                auth.login(request,user) #记录用户登入状态
+                return HttpResponse("恭喜你，登入成功")
 
-def ceshit(request):
-    pass
 
 

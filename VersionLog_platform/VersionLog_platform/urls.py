@@ -17,11 +17,15 @@ from django.contrib import admin
 from django.urls import path
 #from VersionInfo.views import say_hello
 from VersionInfo.views import index
+from VersionInfo.views import manage
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     #path('hello/', say_hello), #当url指向hello时，去VersionInfo.views调用say_hello的方法
     path('index/', index),
-    path('', index)
+    path('', index),
+    path('manage/',manage)
+
 
 ]
