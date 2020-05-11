@@ -37,7 +37,8 @@ def ceshit(request):
 def ceshiaaa(request):
     pass
 
-
+def ceshiccc(request):
+    pass
 
 
 def cesthi2(request):
